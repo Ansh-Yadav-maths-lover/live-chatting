@@ -23,9 +23,11 @@ window.onload = function () {
     const messageInput = document.getElementById("message-input");
     const sendMessageBtn = document.getElementById("send-message-btn");
 
-    function displayMessage(message, isCurrentUser) {
-        let messageClass = isCurrentUser ? "message-right" : "message-left";
-        let messageElement = `<div class="${messageClass}">${message.text}</div>`;
+    function displayMessage(message) {
+        let messageClass = (message.user === userName) ? "message-right" : "message-left";
+        let messageElement = `<div class="${messageClass}">
+                                <strong>${message.user}</strong>: ${message.text}
+                              </div>`;
         chatBox.innerHTML += messageElement;
         chatBox.scrollTop = chatBox.scrollHeight; // Scroll to bottom
     }
@@ -39,7 +41,7 @@ window.onload = function () {
             text: messageText
         };
 
-        displayMessage(message, true);
+        displayMessage(message);
 
         roomData.messages.push(message);
         localStorage.setItem(roomId, JSON.stringify(roomData));
@@ -49,6 +51,6 @@ window.onload = function () {
 
     // Display existing messages when entering the chat room
     roomData.messages.forEach(message => {
-        displayMessage(message, message.user === userName);
+        displayMessage(message);
     });
 };
