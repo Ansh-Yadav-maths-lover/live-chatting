@@ -8,6 +8,7 @@ function createRoom() {
         roomListItem.innerHTML = `<a href="${roomLink}" target="_blank">${roomName}</a>`;
         document.getElementById("rooms").appendChild(roomListItem);
         localStorage.setItem(roomId, JSON.stringify({ password: password, messages: [] }));
+        alert(`Room created successfully! Share this link: ${roomLink}`);
     }
 }
 
