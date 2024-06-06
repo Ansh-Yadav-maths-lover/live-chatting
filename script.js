@@ -2,7 +2,6 @@ document.addEventListener("DOMContentLoaded", () => {
     const roomsList = document.getElementById("rooms");
     const createRoomBtn = document.getElementById("create-room-btn");
 
-    // Function to load existing rooms
     function loadRooms() {
         const rooms = JSON.parse(localStorage.getItem('rooms')) || [];
         roomsList.innerHTML = '';
@@ -13,17 +12,16 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 
-    // Function to create a new room
     function createRoom() {
         try {
             let roomName = prompt("Enter room name:");
-            if (!roomName) return; // Exit if no room name entered
+            if (!roomName) return;
 
             let hostName = prompt("Enter your name:");
-            if (!hostName) return; // Exit if no host name entered
+            if (!hostName) return;
 
             let password = prompt("Enter room password:");
-            if (!password) return; // Exit if no password entered
+            if (!password) return;
 
             let roomId = generateRoomId();
             let roomLink = `${window.location.origin}/chat.html?room=${roomId}&bypass=true`;
@@ -42,10 +40,6 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     }
 
-    // Event listener for create room button
-    createRoomBtn.addEventListener('click', createRoom);
-
-    // Function to generate a random room ID
     function generateRoomId() {
         let chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
         let roomId = '';
@@ -54,6 +48,8 @@ document.addEventListener("DOMContentLoaded", () => {
         }
         return roomId;
     }
+
+    createRoomBtn.addEventListener('click', createRoom);
 
     loadRooms();
 });
