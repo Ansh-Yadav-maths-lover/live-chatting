@@ -1,12 +1,22 @@
 window.onload = function () {
     let params = new URLSearchParams(window.location.search);
     let roomId = params.get('room');
-    let bypass = params.get('bypass');
+    let bypass = params.get('bypass') === 'true';
     let roomData = JSON.parse(localStorage.getItem(roomId));
 
     if (!roomData) {
         alert("Invalid room or room does not exist.");
         window.location.href = "index.html";
+        return;
+    }
+
+    if (!bypass) {
+        let password = prompt("Enter room password:");
+        if (password !== roomData.password) {
+            alert("Incorrect password. Access denied.");
+            window.location.href = "index.html";
+            return;
+        }
     }
 
     let userName = localStorage.getItem(`${roomId}-userName`);
@@ -15,6 +25,7 @@ window.onload = function () {
         if (!userName) {
             alert("Name is required to enter the chat room.");
             window.location.href = "index.html";
+            return;
         }
         localStorage.setItem(`${roomId}-userName`, userName);
     }
