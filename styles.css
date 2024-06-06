@@ -10,28 +10,6 @@ body {
     padding: 20px;
 }
 
-#room-list {
-    border: 1px solid #ccc;
-    padding: 20px;
-}
-
-#rooms {
-    list-style-type: none;
-    padding: 0;
-}
-
-#rooms li {
-    margin-bottom: 10px;
-}
-
-button {
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-}
-
 #chat-box {
     border: 1px solid #ccc;
     height: 400px;
@@ -47,21 +25,30 @@ button {
     margin-right: 10px;
 }
 
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
 .message-left {
-    text-align: left;
     background-color: #f1f1f1;
-    padding: 5px;
-    margin: 5px;
-    border-radius: 5px;
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 10px;
+    max-width: 70%; /* Adjust width as needed */
 }
 
 .message-right {
-    text-align: right;
     background-color: #007bff;
     color: white;
-    padding: 5px;
-    margin: 5px;
-    border-radius: 5px;
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 10px;
+    max-width: 70%; /* Adjust width as needed */
+    align-self: flex-end;
 }
 
 @media (max-width: 600px) {
