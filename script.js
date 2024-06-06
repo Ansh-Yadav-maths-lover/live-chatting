@@ -1,4 +1,4 @@
-function createRoom() {
+async function createRoom() {
     let roomName = prompt("Enter room name:");
     if (roomName) {
         let password = prompt("Enter room password:");
@@ -8,12 +8,25 @@ function createRoom() {
             return;
         }
         let roomId = generateRoomId();
-        let roomLink = window.location.origin + "/chat.html?room=" + roomId + "&bypass=true";
-        let roomListItem = document.createElement("li");
-        roomListItem.innerHTML = `<a href="${window.location.origin}/chat.html?room=${roomId}" target="_blank">${roomName}</a>`;
-        document.getElementById("rooms").appendChild(roomListItem);
-        localStorage.setItem(roomId, JSON.stringify({ password: password, messages: [], creator: userName }));
-        alert(`Room created successfully! Share this link to bypass password: ${roomLink}`);
+        try {
+            let response = await fetch('http://localhost:3000/create-room', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ roomId, roomName, password, userName })
+            });
+            let result = await response.json();
+            if (result.success) {
+                let roomLink = window.location.origin + "/chat.html?room=" + roomId + "&bypass=true";
+                let roomListItem = document.createElement("li");
+                roomListItem.innerHTML = `<a href="${window.location.origin}/chat.html?room=${roomId}" target="_blank">${roomName}</a>`;
+                document.getElementById("rooms").appendChild(roomListItem);
+                alert(`Room created successfully! Share this link to bypass password: ${roomLink}`);
+            }
+        } catch (error) {
+            console.error('Error creating room:', error);
+        }
     }
 }
 
@@ -26,15 +39,20 @@ function generateRoomId() {
     return roomId;
 }
 
-window.onload = function () {
+async function loadRooms() {
     let roomsElement = document.getElementById("rooms");
-    for (let i = 0; i < localStorage.length; i++) {
-        let roomId = localStorage.key(i);
-        let roomData = JSON.parse(localStorage.getItem(roomId));
-        if (roomData && roomData.password) {
+    try {
+        let response = await fetch('http://localhost:3000/rooms');
+        let rooms = await response.json();
+        Object.keys(rooms).forEach(roomId => {
+            let room = rooms[roomId];
             let roomListItem = document.createElement("li");
-            roomListItem.innerHTML = `<a href="${window.location.origin}/chat.html?room=${roomId}" target="_blank">${roomId}</a>`;
+            roomListItem.innerHTML = `<a href="${window.location.origin}/chat.html?room=${roomId}" target="_blank">${room.roomName}</a>`;
             roomsElement.appendChild(roomListItem);
-        }
+        });
+    } catch (error) {
+        console.error('Error loading rooms:', error);
     }
-};
+}
+
+window.onload = loadRooms;
