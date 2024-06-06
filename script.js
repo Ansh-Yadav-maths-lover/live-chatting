@@ -1,6 +1,8 @@
 document.addEventListener("DOMContentLoaded", () => {
     const roomsList = document.getElementById("rooms");
+    const createRoomBtn = document.getElementById("create-room-btn");
 
+    // Function to load existing rooms
     function loadRooms() {
         const rooms = JSON.parse(localStorage.getItem('rooms')) || [];
         roomsList.innerHTML = '';
@@ -11,55 +13,47 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 
-function createRoom() {
-    console.log("Create Room button clicked"); // Check if this message appears in the console
+    // Function to create a new room
+    function createRoom() {
+        try {
+            let roomName = prompt("Enter room name:");
+            if (!roomName) return; // Exit if no room name entered
 
-    try {
-        let roomName = prompt("Enter room name:");
-        if (!roomName) {
-            console.log("Room name not provided");
-            return; // Exit function if no room name entered
+            let hostName = prompt("Enter your name:");
+            if (!hostName) return; // Exit if no host name entered
+
+            let password = prompt("Enter room password:");
+            if (!password) return; // Exit if no password entered
+
+            let roomId = generateRoomId();
+            let roomLink = `${window.location.origin}/chat.html?room=${roomId}&bypass=true`;
+            let roomData = { id: roomId, name: roomName, password: password, messages: [], host: hostName };
+
+            let rooms = JSON.parse(localStorage.getItem('rooms')) || [];
+            rooms.push({ name: roomName, link: roomLink });
+            localStorage.setItem('rooms', JSON.stringify(rooms));
+            localStorage.setItem(roomId, JSON.stringify(roomData));
+
+            loadRooms();
+            alert(`Room created successfully! Share this link: ${roomLink}`);
+        } catch (error) {
+            console.error('Error creating room:', error);
+            alert('An error occurred while creating the room. Please try again.');
         }
-
-        let hostName = prompt("Enter your name:");
-        if (!hostName) {
-            console.log("Host name not provided");
-            return; // Exit function if no host name entered
-        }
-
-        let password = prompt("Enter room password:");
-        if (!password) {
-            console.log("Password not provided");
-            return; // Exit function if no password entered
-        }
-
-        // Generate room ID and room link
-        let roomId = generateRoomId();
-        let roomLink = `${window.location.origin}/chat.html?room=${roomId}&bypass=true`;
-
-        // Example roomData structure
-        let roomData = {
-            id: roomId,
-            name: roomName,
-            password: password,
-            messages: [],
-            host: hostName
-        };
-
-        // Example of updating localStorage
-        let rooms = JSON.parse(localStorage.getItem('rooms')) || [];
-        rooms.push({ name: roomName, link: roomLink });
-        localStorage.setItem('rooms', JSON.stringify(rooms));
-        localStorage.setItem(roomId, JSON.stringify(roomData));
-
-        // Example of displaying a success message
-        alert(`Room created successfully! Share this link: ${roomLink}`);
-
-        // Example of updating room list on the page
-        loadRooms(); // Assuming you have a function to load rooms
-
-    } catch (error) {
-        console.error('Error creating room:', error);
-        alert('An error occurred while creating the room. Please try again.');
     }
-}
+
+    // Event listener for create room button
+    createRoomBtn.addEventListener('click', createRoom);
+
+    // Function to generate a random room ID
+    function generateRoomId() {
+        let chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
+        let roomId = '';
+        for (let i = 0; i < 6; i++) {
+            roomId += chars.charAt(Math.floor(Math.random() * chars.length));
+        }
+        return roomId;
+    }
+
+    loadRooms();
+});
