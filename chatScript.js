@@ -1,17 +1,21 @@
+import { db } from './firebaseConfig.js';
+import { doc, getDoc, updateDoc, arrayUnion } from 'firebase/firestore';
+
 window.onload = async function () {
     let params = new URLSearchParams(window.location.search);
     let roomId = params.get('room');
     let bypass = params.get('bypass') === 'true';
 
     try {
-        let response = await fetch(`http://localhost:3000/room/${roomId}`);
-        if (response.status === 404) {
+        const docRef = doc(db, "rooms", roomId);
+        const docSnap = await getDoc(docRef);
+        if (!docSnap.exists()) {
             alert("Invalid room or room does not exist.");
             window.location.href = "index.html";
             return;
         }
 
-        let roomData = await response.json();
+        let roomData = docSnap.data();
 
         if (!bypass) {
             let password = prompt("Enter room password:");
@@ -58,16 +62,9 @@ window.onload = async function () {
             displayMessage(message);
 
             try {
-                let response = await fetch(`http://localhost:3000/room/${roomId}/message`, {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json'
-                    },
-                    body: JSON.stringify(message)
+                await updateDoc(docRef, {
+                    messages: arrayUnion(message)
                 });
-                if (!response.ok) {
-                    throw new Error('Failed to send message');
-                }
             } catch (error) {
                 console.error('Error sending message:', error);
             }
