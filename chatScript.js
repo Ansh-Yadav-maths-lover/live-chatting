@@ -1,17 +1,25 @@
 window.onload = function () {
-    let roomId = new URLSearchParams(window.location.search).get('room');
+    let params = new URLSearchParams(window.location.search);
+    let roomId = params.get('room');
+    let bypass = params.get('bypass');
     let roomData = JSON.parse(localStorage.getItem(roomId));
 
     if (!roomData) {
         alert("Invalid room or room does not exist.");
         window.location.href = "index.html";
+        return;
     }
 
-    let password = prompt("Enter room password:");
-    if (password !== roomData.password) {
-        alert("Incorrect password. Access denied.");
-        window.location.href = "index.html";
+    if (!bypass) {
+        let password = prompt("Enter room password:");
+        if (password !== roomData.password) {
+            alert("Incorrect password. Access denied.");
+            window.location.href = "index.html";
+            return;
+        }
     }
+
+    let userName = prompt("Enter your name:");
 
     const chatBox = document.getElementById('chat-box');
     const messageInput = document.getElementById('message-input');
@@ -20,14 +28,16 @@ window.onload = function () {
         chatBox.innerHTML = '';
         roomData.messages.forEach(message => {
             const messageElement = document.createElement('div');
-            messageElement.textContent = message;
+            messageElement.textContent = `${message.sender}: ${message.text}`;
+            messageElement.className = message.sender === userName ? 'message-right' : 'message-left';
             chatBox.appendChild(messageElement);
         });
     }
 
     function sendMessage() {
-        const message = messageInput.value.trim();
-        if (message) {
+        const messageText = messageInput.value.trim();
+        if (messageText) {
+            const message = { sender: userName, text: messageText };
             roomData.messages.push(message);
             localStorage.setItem(roomId, JSON.stringify(roomData));
             messageInput.value = '';
