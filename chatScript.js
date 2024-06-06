@@ -6,7 +6,7 @@ window.onload = function () {
 
     if (!roomData) {
         alert("Invalid room or room does not exist.");
-        window.location.href = "index.html";
+        window.location.href = "index.html"; // Redirect or handle error
         return;
     }
 
@@ -14,37 +14,11 @@ window.onload = function () {
         let password = prompt("Enter room password:");
         if (password !== roomData.password) {
             alert("Incorrect password. Access denied.");
-            window.location.href = "index.html";
+            window.location.href = "index.html"; // Redirect or handle error
             return;
         }
     }
 
     let userName = prompt("Enter your name:");
-
-    const chatBox = document.getElementById('chat-box');
-    const messageInput = document.getElementById('message-input');
-
-    function updateChatBox() {
-        chatBox.innerHTML = '';
-        roomData.messages.forEach(message => {
-            const messageElement = document.createElement('div');
-            messageElement.textContent = `${message.sender}: ${message.text}`;
-            messageElement.className = message.sender === userName ? 'message-right' : 'message-left';
-            chatBox.appendChild(messageElement);
-        });
-    }
-
-    function sendMessage() {
-        const messageText = messageInput.value.trim();
-        if (messageText) {
-            const message = { sender: userName, text: messageText };
-            roomData.messages.push(message);
-            localStorage.setItem(roomId, JSON.stringify(roomData));
-            messageInput.value = '';
-            updateChatBox();
-        }
-    }
-
-    document.querySelector('button').addEventListener('click', sendMessage);
-    updateChatBox();
+    // Logic to handle chat room messages
 };
