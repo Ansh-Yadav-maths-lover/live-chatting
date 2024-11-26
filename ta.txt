@@ -1,0 +1,1450 @@
+{
+    "success": {
+        "page": {
+            "id": "mypage",
+            "template": "MyPage",
+            "spaces": {
+                "seo": {
+                    "id": "seo",
+                    "template": "SEOSpace",
+                    "widget_wrappers": [
+                        {
+                            "template": "SEOWidget",
+                            "widget": {
+                                "@type": "type.googleapis.com/widget.SEOWidget",
+                                "data": {
+                                    "meta_tags": {
+                                        "title": "Disney+ Hotstar - Watch TV Shows, Movies, Specials, Live Cricket & Football",
+                                        "description": "Disney+ Hotstar is India’s largest premium streaming platform with more than 100,000 hours of drama and movies in 17 languages, and coverage of every major global sporting event.",
+                                        "area_served": "in",
+                                        "website_url": "hotstar.com/in",
+                                        "brand": "Disney+ Hotstar"
+                                    },
+                                    "url_tags": {
+                                        "canonical_url": "https://www.hotstar.com/in/mypage",
+                                        "alternate_urls": [
+                                            {
+                                                "url": "https://www.hotstar.com/in/mypage",
+                                                "lang_code": "en-IN"
+                                            },
+                                            {
+                                                "url": "https://www.hotstar.com/us/mypage",
+                                                "lang_code": "en-US"
+                                            },
+                                            {
+                                                "url": "https://www.hotstar.com/ca/mypage",
+                                                "lang_code": "en-CA"
+                                            },
+                                            {
+                                                "url": "https://www.hotstar.com/gb/mypage",
+                                                "lang_code": "en-GB"
+                                            },
+                                            {
+                                                "url": "https://www.hotstar.com/id/mypage",
+                                                "lang_code": "en-ID"
+                                            },
+                                            {
+                                                "url": "https://www.hotstar.com/th/mypage",
+                                                "lang_code": "en-TH"
+                                            },
+                                            {
+                                                "url": "https://www.hotstar.com/my/mypage",
+                                                "lang_code": "en-MY"
+                                            },
+                                            {
+                                                "url": "https://www.hotstar.com/sg/mypage",
+                                                "lang_code": "en-SG"
+                                            },
+                                            {
+                                                "url": "https://www.apps.disneyplus.com/za/mypage",
+                                                "lang_code": "en-ZA"
+                                            },
+                                            {
+                                                "url": "https://www.apps.disneyplus.com/il/mypage",
+                                                "lang_code": "en-IL"
+                                            },
+                                            {
+                                                "url": "https://www.apps.disneyplus.com/il/mypage?x-lang=heb",
+                                                "lang_code": "he-IL"
+                                            },
+                                            {
+                                                "url": "https://www.apps.disneyplus.com/ae/mypage",
+                                                "lang_code": "en-AE"
+                                            },
+                                            {
+                                                "url": "https://www.apps.disneyplus.com/ae/mypage?x-lang=ara",
+                                                "lang_code": "ar-AE"
+                                            },
+                                            {
+                                                "url": "https://www.apps.disneyplus.com/sa/mypage",
+                                                "lang_code": "en-SA"
+                                            },
+                                            {
+                                                "url": "https://www.apps.disneyplus.com/sa/mypage?x-lang=ara",
+                                                "lang_code": "ar-SA"
+                                            },
+                                            {
+                                                "url": "https://www.apps.disneyplus.com/eg/mypage",
+                                                "lang_code": "en-EG"
+                                            },
+                                            {
+                                                "url": "https://www.apps.disneyplus.com/eg/mypage?x-lang=ara",
+                                                "lang_code": "ar-EG"
+                                            },
+                                            {
+                                                "url": "https://www.apps.disneyplus.com/qa/mypage",
+                                                "lang_code": "en-QA"
+                                            },
+                                            {
+                                                "url": "https://www.apps.disneyplus.com/qa/mypage?x-lang=ara",
+                                                "lang_code": "ar-QA"
+                                            },
+                                            {
+                                                "url": "https://www.apps.disneyplus.com/kw/mypage",
+                                                "lang_code": "en-KW"
+                                            },
+                                            {
+                                                "url": "https://www.apps.disneyplus.com/kw/mypage?x-lang=ara",
+                                                "lang_code": "ar-KW"
+                                            },
+                                            {
+                                                "url": "https://www.apps.disneyplus.com/om/mypage",
+                                                "lang_code": "en-OM"
+                                            },
+                                            {
+                                                "url": "https://www.apps.disneyplus.com/om/mypage?x-lang=ara",
+                                                "lang_code": "ar-OM"
+                                            },
+                                            {
+                                                "url": "https://www.apps.disneyplus.com/bh/mypage",
+                                                "lang_code": "en-BH"
+                                            },
+                                            {
+                                                "url": "https://www.apps.disneyplus.com/bh/mypage?x-lang=ara",
+                                                "lang_code": "ar-BH"
+                                            },
+                                            {
+                                                "url": "https://www.apps.disneyplus.com/dz/mypage",
+                                                "lang_code": "en-DZ"
+                                            },
+                                            {
+                                                "url": "https://www.apps.disneyplus.com/dz/mypage?x-lang=ara",
+                                                "lang_code": "ar-DZ"
+                                            },
+                                            {
+                                                "url": "https://www.apps.disneyplus.com/jo/mypage",
+                                                "lang_code": "en-JO"
+                                            },
+                                            {
+                                                "url": "https://www.apps.disneyplus.com/jo/mypage?x-lang=ara",
+                                                "lang_code": "ar-JO"
+                                            },
+                                            {
+                                                "url": "https://www.apps.disneyplus.com/ma/mypage",
+                                                "lang_code": "en-MA"
+                                            },
+                                            {
+                                                "url": "https://www.apps.disneyplus.com/ma/mypage?x-lang=ara",
+                                                "lang_code": "ar-MA"
+                                            },
+                                            {
+                                                "url": "https://www.apps.disneyplus.com/tn/mypage",
+                                                "lang_code": "en-TN"
+                                            },
+                                            {
+                                                "url": "https://www.apps.disneyplus.com/tn/mypage?x-lang=ara",
+                                                "lang_code": "ar-TN"
+                                            },
+                                            {
+                                                "url": "https://www.apps.disneyplus.com/ps/mypage",
+                                                "lang_code": "en-PS"
+                                            },
+                                            {
+                                                "url": "https://www.apps.disneyplus.com/ps/mypage?x-lang=ara",
+                                                "lang_code": "ar-PS"
+                                            },
+                                            {
+                                                "url": "https://www.apps.disneyplus.com/ye/mypage",
+                                                "lang_code": "en-YE"
+                                            },
+                                            {
+                                                "url": "https://www.apps.disneyplus.com/ye/mypage?x-lang=ara",
+                                                "lang_code": "ar-YE"
+                                            },
+                                            {
+                                                "url": "https://www.apps.disneyplus.com/lb/mypage",
+                                                "lang_code": "en-LB"
+                                            },
+                                            {
+                                                "url": "https://www.apps.disneyplus.com/lb/mypage?x-lang=ara",
+                                                "lang_code": "ar-LB"
+                                            },
+                                            {
+                                                "url": "https://www.apps.disneyplus.com/iq/mypage",
+                                                "lang_code": "en-IQ"
+                                            },
+                                            {
+                                                "url": "https://www.apps.disneyplus.com/iq/mypage?x-lang=ara",
+                                                "lang_code": "ar-IQ"
+                                            },
+                                            {
+                                                "url": "https://www.apps.disneyplus.com/ly/mypage",
+                                                "lang_code": "en-LY"
+                                            },
+                                            {
+                                                "url": "https://www.apps.disneyplus.com/ly/mypage?x-lang=ara",
+                                                "lang_code": "ar-LY"
+                                            },
+                                            {
+                                                "url": "https://www.apps.disneyplus.com/ph/mypage",
+                                                "lang_code": "en-PH"
+                                            }
+                                        ]
+                                    },
+                                    "json_ld_data": {
+                                        "schemas": [
+                                            "{\"@context\":\"https://schema.org\",\"@type\":\"WebSite\",\"url\":\"https://www.hotstar.com/in/mypage\"}",
+                                            "{\"@context\":\"https://schema.org\",\"@type\":\"Organization\",\"websiteURL\":\"https://www.hotstar.com/in/mypage\",\"areaServed\":\"in\",\"name\":\"Disney+ Hotstar\"}"
+                                        ]
+                                    },
+                                    "facebook_tags": {
+                                        "ogTitle": "Disney+ Hotstar - Watch TV Shows, Movies, Specials, Live Cricket & Football",
+                                        "ogDescription": "Disney+ Hotstar is India’s largest premium streaming platform with more than 100,000 hours of drama and movies in 17 languages, and coverage of every major global sporting event.",
+                                        "ogUrl": "https://www.hotstar.com/in/mypage",
+                                        "ogImage": "https://secure-media.hotstarext.com/web-assets/prod/images/prelaunch/socials-preview.png"
+                                    },
+                                    "twitter_tags": {
+                                        "title": "Disney+ Hotstar - Watch TV Shows, Movies, Specials, Live Cricket & Football",
+                                        "description": "Disney+ Hotstar is India’s largest premium streaming platform with more than 100,000 hours of drama and movies in 17 languages, and coverage of every major global sporting event.",
+                                        "image": "https://secure-media.hotstarext.com/web-assets/prod/images/prelaunch/socials-preview.png"
+                                    },
+                                    "social_tags": [
+                                        {
+                                            "property": "og:title",
+                                            "content": "Disney+ Hotstar - Watch TV Shows, Movies, Specials, Live Cricket & Football"
+                                        },
+                                        {
+                                            "property": "og:description",
+                                            "content": "Disney+ Hotstar is India’s largest premium streaming platform with more than 100,000 hours of drama and movies in 17 languages, and coverage of every major global sporting event."
+                                        },
+                                        {
+                                            "property": "og:url",
+                                            "content": "https://www.hotstar.com/in/mypage"
+                                        },
+                                        {
+                                            "property": "og:image",
+                                            "content": "https://secure-media.hotstarext.com/web-assets/prod/images/prelaunch/socials-preview.png"
+                                        },
+                                        {
+                                            "property": "twitter:title",
+                                            "content": "Disney+ Hotstar - Watch TV Shows, Movies, Specials, Live Cricket & Football"
+                                        },
+                                        {
+                                            "property": "twitter:description",
+                                            "content": "Disney+ Hotstar is India’s largest premium streaming platform with more than 100,000 hours of drama and movies in 17 languages, and coverage of every major global sporting event."
+                                        },
+                                        {
+                                            "property": "twitter:image",
+                                            "content": "https://secure-media.hotstarext.com/web-assets/prod/images/prelaunch/socials-preview.png"
+                                        }
+                                    ]
+                                }
+                            },
+                            "id": "54747",
+                            "defer_id": "54747",
+                            "unique_identifier": "327"
+                        }
+                    ]
+                },
+                "tray": {
+                    "id": "tray",
+                    "template": "TraySpace",
+                    "widget_wrappers": [
+                        {
+                            "template": "MembershipSummaryWidget",
+                            "widget": {
+                                "@type": "type.googleapis.com/widget.MembershipSummaryWidget",
+                                "widget_commons": {
+                                    "version": "1",
+                                    "instrumentation": {
+                                        "impression_events": [
+                                            {
+                                                "event_name": "Membership Summary Viewed"
+                                            }
+                                        ],
+                                        "instrumentation_context_v2": {
+                                            "url": "type.googleapis.com/server.context.widget.MembershipSummaryContext",
+                                            "value": "Ck4KF01lbWJlcnNoaXBTdW1tYXJ5V2lkZ2V0EhdNZW1iZXJzaGlwU3VtbWFyeVdpZGdldBoXTWVtYmVyc2hpcFN1bW1hcnlXaWRnZXQiATESGwoVRGlzbmV5KyBIb3RzdGFyIFN1cGVyGAEgAg=="
+                                        }
+                                    },
+                                    "name": "MembershipSummaryWidget"
+                                },
+                                "data": {
+                                    "title": {
+                                        "value": "Disney+ Hotstar Super",
+                                        "type": "HIGHLIGHTED_TITLE",
+                                        "action": {
+                                            "on_click": [
+                                                {
+                                                    "page_navigation": {
+                                                        "page_type": "HelpAndSettingsDesktopPage",
+                                                        "page_url": "/v2/pages/settings?selected_tab=subscription",
+                                                        "page_slug": "/in/settings?selected_tab=subscription"
+                                                    }
+                                                }
+                                            ],
+                                            "on_long_click": [
+                                                {
+                                                    "page_navigation": {
+                                                        "page_type": "HelpAndSettingsDesktopPage",
+                                                        "page_url": "/v2/pages/settings?selected_tab=subscription",
+                                                        "page_slug": "/in/settings?selected_tab=subscription"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    "primary_sub_title": "‪+91 9********2‬",
+                                    "cta": {
+                                        "value": "Upgrade",
+                                        "action": {
+                                            "on_click": [
+                                                {
+                                                    "hs_track": {
+                                                        "name": "Membership Summary Clicked"
+                                                    }
+                                                },
+                                                {
+                                                    "page_navigation": {
+                                                        "page_type": "DesktopPaywallPage",
+                                                        "page_url": "/v2/pages/paywall",
+                                                        "page_slug": "/in/paywall"
+                                                    }
+                                                }
+                                            ],
+                                            "on_long_click": [
+                                                {
+                                                    "hs_track": {
+                                                        "name": "Membership Summary Clicked"
+                                                    }
+                                                },
+                                                {
+                                                    "page_navigation": {
+                                                        "page_type": "DesktopPaywallPage",
+                                                        "page_url": "/v2/pages/paywall",
+                                                        "page_slug": "/in/paywall"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    "subtext": {
+                                        "value": "Upgrade for more benefits"
+                                    },
+                                    "help_settings_cta": {
+                                        "icon_name": "icon-settings",
+                                        "value": "Help & Settings",
+                                        "action": {
+                                            "on_click": [
+                                                {
+                                                    "hs_track": {
+                                                        "name": "Clicked Utility Widget",
+                                                        "override_context": {
+                                                            "url": "type.googleapis.com/server.context.widget.IdentityActionContext",
+                                                            "value": "CjUSF01lbWJlcnNoaXBTdW1tYXJ5V2lkZ2V0GhdNZW1iZXJzaGlwU3VtbWFyeVdpZGdldCIBMRI1CgdteXNwYWNlEhdNZW1iZXJzaGlwU3VtbWFyeVdpZGdldBoRaGVscF9hbmRfc2V0dGluZ3M="
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "page_navigation": {
+                                                        "page_type": "HelpAndSettingsDesktopPage",
+                                                        "page_url": "/v2/pages/settings",
+                                                        "page_slug": "/in/settings"
+                                                    }
+                                                }
+                                            ],
+                                            "on_long_click": [
+                                                {
+                                                    "hs_track": {
+                                                        "name": "Clicked Utility Widget",
+                                                        "override_context": {
+                                                            "url": "type.googleapis.com/server.context.widget.IdentityActionContext",
+                                                            "value": "CjUSF01lbWJlcnNoaXBTdW1tYXJ5V2lkZ2V0GhdNZW1iZXJzaGlwU3VtbWFyeVdpZGdldCIBMRI1CgdteXNwYWNlEhdNZW1iZXJzaGlwU3VtbWFyeVdpZGdldBoRaGVscF9hbmRfc2V0dGluZ3M="
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "page_navigation": {
+                                                        "page_type": "HelpAndSettingsDesktopPage",
+                                                        "page_url": "/v2/pages/settings",
+                                                        "page_slug": "/in/settings"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            },
+                            "id": "130",
+                            "defer_id": "130",
+                            "unique_identifier": "249"
+                        },
+                        {
+                            "template": "DividerWidget",
+                            "widget": {
+                                "@type": "type.googleapis.com/widget.DividerWidget",
+                                "template": {
+                                    "name": "DividerWidget",
+                                    "version": "1"
+                                },
+                                "data": {}
+                            },
+                            "id": "73",
+                            "defer_id": "73",
+                            "unique_identifier": "72"
+                        },
+                        {
+                            "template": "ProfilesContainerWidget",
+                            "widget": {
+                                "@type": "type.googleapis.com/widget.ProfilesContainerWidget",
+                                "widget_commons": {
+                                    "id": "83",
+                                    "version": "1",
+                                    "name": "ProfilesContainerWidget"
+                                },
+                                "data": {
+                                    "profile_selection": {
+                                        "widget_commons": {
+                                            "id": "703",
+                                            "version": "1",
+                                            "instrumentation": {
+                                                "impression_events": [
+                                                    {
+                                                        "event_name": "Viewed Profile Selection Page"
+                                                    }
+                                                ],
+                                                "instrumentation_context_v2": {
+                                                    "url": "type.googleapis.com/server.context.widget.UtilityWidgetContext",
+                                                    "value": "CjMSFlByb2ZpbGVTZWxlY3Rpb25XaWRnZXQaFlByb2ZpbGVTZWxlY3Rpb25XaWRnZXQiATE="
+                                                }
+                                            },
+                                            "name": "ProfileSelectionWidget"
+                                        },
+                                        "data": {
+                                            "title": "Who's watching?",
+                                            "profiles": [
+                                                {
+                                                    "id": "98b3b471a6744ddcb1ad6b54f5f0d952",
+                                                    "profile_image": {
+                                                        "src": "https://img1.hotstarext.com/image/upload/w_200,h_200,c_fill/v1/feature/profile/38.png"
+                                                    },
+                                                    "avatar_id": "38",
+                                                    "profile_name": "Ansh",
+                                                    "is_default": true,
+                                                    "select_profile": {
+                                                        "on_click": [
+                                                            {
+                                                                "hs_track": {
+                                                                    "name": "Profile Selected",
+                                                                    "override_context": {
+                                                                        "url": "type.googleapis.com/server.context.widget.ProfileSelectionContext",
+                                                                        "value": "CjMSFlByb2ZpbGVTZWxlY3Rpb25XaWRnZXQaFlByb2ZpbGVTZWxlY3Rpb25XaWRnZXQiATESOwoXUHJvZmlsZXNDb250YWluZXJXaWRnZXQSIDk4YjNiNDcxYTY3NDRkZGNiMWFkNmI1NGY1ZjBkOTUy"
+                                                                    }
+                                                                }
+                                                            },
+                                                            {
+                                                                "fetch_widget": {
+                                                                    "url": "/v2/pages/136/spaces/133/widgets/119?action=switchProfile"
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    "edit_profile": {
+                                                        "on_click": [
+                                                            {
+                                                                "widget_navigation": {
+                                                                    "widget_id": "702"
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    "is_selected": true
+                                                },
+                                                {
+                                                    "profile_image": {
+                                                        "src": "https://img1.hotstarext.com/image/upload/w_200,h_200,c_fill/feature/profile/19.png"
+                                                    },
+                                                    "avatar_id": "19",
+                                                    "profile_name": "Kids",
+                                                    "profile_type": "KIDS",
+                                                    "is_default": true,
+                                                    "select_profile": {
+                                                        "on_click": [
+                                                            {
+                                                                "fetch_widget": {
+                                                                    "url": "/v2/pages/136/spaces/133/widgets/118?action=createDefaultKidsProfile"
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                }
+                                            ],
+                                            "add_profile": {
+                                                "label": "Add",
+                                                "action": {
+                                                    "on_click": [
+                                                        {
+                                                            "hs_track": {
+                                                                "name": "Clicked Utility Widget",
+                                                                "override_context": {
+                                                                    "url": "type.googleapis.com/server.context.widget.IdentityActionContext",
+                                                                    "value": "CjMSFlByb2ZpbGVTZWxlY3Rpb25XaWRnZXQaFlByb2ZpbGVTZWxlY3Rpb25XaWRnZXQiATESNgoXUHJvZmlsZXNDb250YWluZXJXaWRnZXQSFlByb2ZpbGVTZWxlY3Rpb25XaWRnZXQaA2FkZA=="
+                                                                }
+                                                            }
+                                                        },
+                                                        {
+                                                            "widget_navigation": {
+                                                                "widget_id": "701"
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            "edit_label": "Edit",
+                                            "edit_profile_btn": {
+                                                "label": "Edit",
+                                                "action": {
+                                                    "on_click": [
+                                                        {
+                                                            "hs_track": {
+                                                                "name": "Clicked Utility Widget",
+                                                                "override_context": {
+                                                                    "url": "type.googleapis.com/server.context.widget.IdentityActionContext",
+                                                                    "value": "CjMSFlByb2ZpbGVTZWxlY3Rpb25XaWRnZXQaFlByb2ZpbGVTZWxlY3Rpb25XaWRnZXQiATESNwoXUHJvZmlsZXNDb250YWluZXJXaWRnZXQSFlByb2ZpbGVTZWxlY3Rpb25XaWRnZXQaBGVkaXQ="
+                                                                }
+                                                            }
+                                                        },
+                                                        {
+                                                            "widget_navigation": {
+                                                                "widget_id": "702"
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            "edit_title": "Edit Profile",
+                                            "cancel_label": "Cancel",
+                                            "tray_view_title": "Profiles"
+                                        }
+                                    },
+                                    "profile_create": {
+                                        "widget_commons": {
+                                            "id": "701",
+                                            "version": "1",
+                                            "instrumentation": {
+                                                "impression_events": [
+                                                    {
+                                                        "event_name": "Viewed Onboarding Page"
+                                                    }
+                                                ],
+                                                "instrumentation_context_v2": {
+                                                    "url": "type.googleapis.com/server.context.widget.LoginItemContext",
+                                                    "value": "CicSEEFkZFByb2ZpbGVXaWRnZXQaEEFkZFByb2ZpbGVXaWRnZXQiATESDwoNGgthZGRfcHJvZmlsZQ=="
+                                                }
+                                            },
+                                            "name": "AddProfileWidget"
+                                        },
+                                        "data": {
+                                            "title": "Create Profile",
+                                            "name_input_label": "Your Name",
+                                            "kids_option": {
+                                                "label": "Is this for Kids?",
+                                                "desc": "Content rated U/A 7+ & below"
+                                            },
+                                            "maturity": {
+                                                "label": "Select Content Rating",
+                                                "desc": "You will see content rated up to",
+                                                "selected_ratings_text": "{{content_rating}}",
+                                                "maturity": {
+                                                    "widget_commons": {
+                                                        "version": "1",
+                                                        "name": "MaturitySelectionWidget"
+                                                    },
+                                                    "data": {
+                                                        "desc": "Only content of ratings selected will be discoverable",
+                                                        "first_profile_label": "First profile can not be converted to Kids",
+                                                        "ratings": [
+                                                            {
+                                                                "id": "118",
+                                                                "title": "U",
+                                                                "desc": "Features titles rated U & below",
+                                                                "display_text": "0",
+                                                                "title_text": "You will see content rated up to U"
+                                                            },
+                                                            {
+                                                                "id": "119",
+                                                                "title": "U/A 7+",
+                                                                "desc": "Features titles rated U/A 7+ & below",
+                                                                "display_text": "7",
+                                                                "title_text": "You will see content rated up to U/A 7+"
+                                                            },
+                                                            {
+                                                                "id": "120",
+                                                                "title": "U/A 13+",
+                                                                "desc": "Features titles rated U/A 13+ & below",
+                                                                "display_text": "13",
+                                                                "title_text": "You will see content rated up to U/A 13+"
+                                                            },
+                                                            {
+                                                                "id": "121",
+                                                                "title": "U/A 16+",
+                                                                "desc": "Features titles rated U/A 16+ & below",
+                                                                "display_text": "16",
+                                                                "title_text": "You will see content rated up to U/A 16+"
+                                                            },
+                                                            {
+                                                                "id": "122",
+                                                                "title": "A",
+                                                                "desc": "Features titles rated A & below",
+                                                                "display_text": "18",
+                                                                "title_text": "You will see all available content"
+                                                            }
+                                                        ],
+                                                        "selected_rating_id": "122",
+                                                        "highest_kids_rating": "119",
+                                                        "non_kids_rating_selection_message": "{{maturity_rating}} can't be selected for a Kids profile",
+                                                        "kids_mode_auto_toggle_message": "Kids profile toggle on"
+                                                    }
+                                                }
+                                            },
+                                            "create_action_options": {
+                                                "label_create_profile": "Create Your Profile",
+                                                "label_create_kids_profile": "Create Kids Profile",
+                                                "create_profile_action": {
+                                                    "on_click": [
+                                                        {
+                                                            "fetch_widget": {
+                                                                "url": "/v2/pages/136/spaces/133/widgets/118?action=addProfile"
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            "name_input_regex": "^[A-Za-z\\u0590-\\u05fe\\u200f\\u200e\\u0621-\\u064A\\u0660-\\u0669\\d][A-Za-z\\u0590-\\u05fe\\u200f\\u200e\\u0621-\\u064A\\u0660-\\u0669 \\d]{0,14}$",
+                                            "cancel_btn": {
+                                                "label": "Cancel",
+                                                "action": {
+                                                    "on_click": [
+                                                        {
+                                                            "widget_navigation": {
+                                                                "widget_id": "703"
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            "parental_lock": {
+                                                "label": "Set a Parental Lock ?",
+                                                "desc": "Restrict access to adult profiles with a PIN",
+                                                "turn_off_action": {
+                                                    "on_click": [
+                                                        {
+                                                            "fetch_widget": {
+                                                                "url": "/v2/pages/104/spaces/64/widgets/140?action=sendVerificationCode"
+                                                            }
+                                                        }
+                                                    ]
+                                                },
+                                                "turn_on_action": {
+                                                    "on_click": [
+                                                        {
+                                                            "fetch_widget": {
+                                                                "url": "/v2/pages/104/spaces/64/widgets/140?action=enableParentalLock"
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            "invalid_user_name_message": "Name cannot be empty and can take up to 15 alphabets or digits only",
+                                            "name_max_length": "15",
+                                            "edit_name_label": "Edit",
+                                            "name_input_next_screen_label": "Continue"
+                                        }
+                                    },
+                                    "profile_edit": {
+                                        "widget_commons": {
+                                            "id": "702",
+                                            "version": "1",
+                                            "name": "EditProfileWidget"
+                                        },
+                                        "data": {
+                                            "title": "Edit Profile",
+                                            "name_edit_label": "Profile Name",
+                                            "delete_label": "Delete",
+                                            "maturity_text": "  ",
+                                            "save_action": {
+                                                "label": "Save & Continue",
+                                                "actions": {
+                                                    "on_click": [
+                                                        {
+                                                            "fetch_widget": {
+                                                                "url": "/v2/pages/136/spaces/133/widgets/146?action=editProfile"
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            "delete_option": {
+                                                "title": "Are you sure?",
+                                                "desc": "On deleting this profile, its watch history and preferences will be lost",
+                                                "cancel": {
+                                                    "label": "Cancel"
+                                                },
+                                                "delete": {
+                                                    "label": "Delete Profile",
+                                                    "actions": {
+                                                        "on_click": [
+                                                            {
+                                                                "fetch_widget": {
+                                                                    "url": "/v2/pages/136/spaces/133/widgets/9?action=deleteProfile"
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                }
+                                            },
+                                            "name_input_regex": "^[A-Za-z\\u0590-\\u05fe\\u200f\\u200e\\u0621-\\u064A\\u0660-\\u0669\\d][A-Za-z\\u0590-\\u05fe\\u200f\\u200e\\u0621-\\u064A\\u0660-\\u0669 \\d]{0,14}$",
+                                            "delete_btn": {
+                                                "label": "Delete",
+                                                "actions": {
+                                                    "on_click": [
+                                                        {
+                                                            "hs_track": {
+                                                                "name": "Clicked Utility Widget",
+                                                                "override_context": {
+                                                                    "url": "type.googleapis.com/server.context.widget.UtilityWidgetContext",
+                                                                    "value": "CikSEUVkaXRQcm9maWxlV2lkZ2V0GhFFZGl0UHJvZmlsZVdpZGdldCIBMRIGZGVsZXRlGAE="
+                                                                }
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            "invalid_name_user_message": "Text field cannot be empty and can take up to 15 characters or digits only",
+                                            "name_max_length": "15"
+                                        }
+                                    },
+                                    "avatar_options": {
+                                        "available_avatars": [
+                                            {
+                                                "image": {
+                                                    "src": "https://img1.hotstarext.com/image/upload/w_200,h_200,c_fill/feature/profile/19.png"
+                                                },
+                                                "id": "19"
+                                            },
+                                            {
+                                                "image": {
+                                                    "src": "https://img1.hotstarext.com/image/upload/w_200,h_200,c_fill/feature/profile/24.png"
+                                                },
+                                                "id": "24"
+                                            },
+                                            {
+                                                "image": {
+                                                    "src": "https://img1.hotstarext.com/image/upload/w_200,h_200,c_fill/feature/profile/12.png"
+                                                },
+                                                "id": "12"
+                                            },
+                                            {
+                                                "image": {
+                                                    "src": "https://img.hotstar.com/image/upload/v1693981922/feature/profile/Additional%20Profile%20Avatars/Dory.png"
+                                                },
+                                                "id": "39"
+                                            },
+                                            {
+                                                "image": {
+                                                    "src": "https://img1.hotstarext.com/image/upload/w_200,h_200,c_fill/feature/profile/1.png"
+                                                },
+                                                "id": "1"
+                                            },
+                                            {
+                                                "image": {
+                                                    "src": "https://img1.hotstarext.com/image/upload/w_200,h_200,c_fill/feature/profile/23.png"
+                                                },
+                                                "id": "23"
+                                            },
+                                            {
+                                                "image": {
+                                                    "src": "https://img1.hotstarext.com/image/upload/w_200,h_200,c_fill/feature/profile/9.png"
+                                                },
+                                                "id": "9"
+                                            },
+                                            {
+                                                "image": {
+                                                    "src": "https://img1.hotstarext.com/image/upload/w_200,h_200,c_fill/v1/feature/profile/25.png"
+                                                },
+                                                "id": "25"
+                                            },
+                                            {
+                                                "image": {
+                                                    "src": "https://img1.hotstarext.com/image/upload/w_200,h_200,c_fill/feature/profile/4.png"
+                                                },
+                                                "id": "4"
+                                            },
+                                            {
+                                                "image": {
+                                                    "src": "https://img.hotstar.com/image/upload/v1693981925/feature/profile/Additional%20Profile%20Avatars/Loki.png"
+                                                },
+                                                "id": "40"
+                                            },
+                                            {
+                                                "image": {
+                                                    "src": "https://img.hotstar.com/image/upload/v1693981924/feature/profile/Additional%20Profile%20Avatars/Wanda.png"
+                                                },
+                                                "id": "41"
+                                            },
+                                            {
+                                                "image": {
+                                                    "src": "https://img.hotstar.com/image/upload/v1693981924/feature/profile/Additional%20Profile%20Avatars/Vasya.png"
+                                                },
+                                                "id": "42"
+                                            },
+                                            {
+                                                "image": {
+                                                    "src": "https://img1.hotstarext.com/image/upload/w_200,h_200,c_fill/v1/feature/profile/28.png"
+                                                },
+                                                "id": "28"
+                                            },
+                                            {
+                                                "image": {
+                                                    "src": "https://img1.hotstarext.com/image/upload/w_200,h_200,c_fill/v1/feature/profile/29.png"
+                                                },
+                                                "id": "29"
+                                            },
+                                            {
+                                                "image": {
+                                                    "src": "https://img1.hotstarext.com/image/upload/w_200,h_200,c_fill/v1/feature/profile/30.png"
+                                                },
+                                                "id": "30"
+                                            },
+                                            {
+                                                "image": {
+                                                    "src": "https://img1.hotstarext.com/image/upload/w_200,h_200,c_fill/v1/feature/profile/31.png"
+                                                },
+                                                "id": "31"
+                                            },
+                                            {
+                                                "image": {
+                                                    "src": "https://img1.hotstarext.com/image/upload/w_200,h_200,c_fill/v1/feature/profile/32.png"
+                                                },
+                                                "id": "32"
+                                            },
+                                            {
+                                                "image": {
+                                                    "src": "https://img1.hotstarext.com/image/upload/w_200,h_200,c_fill/v1/feature/profile/33.png"
+                                                },
+                                                "id": "33"
+                                            },
+                                            {
+                                                "image": {
+                                                    "src": "https://img1.hotstarext.com/image/upload/w_200,h_200,c_fill/v1/feature/profile/38.png"
+                                                },
+                                                "id": "38"
+                                            },
+                                            {
+                                                "image": {
+                                                    "src": "https://img1.hotstarext.com/image/upload/w_200,h_200,c_fill/feature/profile/13.png"
+                                                },
+                                                "id": "13"
+                                            },
+                                            {
+                                                "image": {
+                                                    "src": "https://img1.hotstarext.com/image/upload/w_200,h_200,c_fill/v1/feature/profile/35.png"
+                                                },
+                                                "id": "35"
+                                            },
+                                            {
+                                                "image": {
+                                                    "src": "https://img1.hotstarext.com/image/upload/w_200,h_200,c_fill/feature/profile/3.png"
+                                                },
+                                                "id": "3"
+                                            },
+                                            {
+                                                "image": {
+                                                    "src": "https://img1.hotstarext.com/image/upload/w_200,h_200,c_fill/v1/feature/profile/36.png"
+                                                },
+                                                "id": "36"
+                                            },
+                                            {
+                                                "image": {
+                                                    "src": "https://img1.hotstarext.com/image/upload/w_200,h_200,c_fill/v1/feature/profile/37.png"
+                                                },
+                                                "id": "37"
+                                            },
+                                            {
+                                                "image": {
+                                                    "src": "https://img1.hotstarext.com/image/upload/w_200,h_200,c_fill/feature/profile/2.png"
+                                                },
+                                                "id": "2"
+                                            },
+                                            {
+                                                "image": {
+                                                    "src": "https://img1.hotstarext.com/image/upload/w_200,h_200,c_fill/feature/profile/5.png"
+                                                },
+                                                "id": "5"
+                                            },
+                                            {
+                                                "image": {
+                                                    "src": "https://img.hotstar.com/image/upload/v1693981922/feature/profile/Additional%20Profile%20Avatars/Rani_Baa.png"
+                                                },
+                                                "id": "43"
+                                            },
+                                            {
+                                                "image": {
+                                                    "src": "https://img1.hotstarext.com/image/upload/w_200,h_200,c_fill/feature/profile/14.png"
+                                                },
+                                                "id": "14"
+                                            },
+                                            {
+                                                "image": {
+                                                    "src": "https://img1.hotstarext.com/image/upload/w_200,h_200,c_fill/feature/profile/10.png"
+                                                },
+                                                "id": "10"
+                                            },
+                                            {
+                                                "image": {
+                                                    "src": "https://img1.hotstarext.com/image/upload/w_200,h_200,c_fill/v1/feature/profile/27.png"
+                                                },
+                                                "id": "27"
+                                            },
+                                            {
+                                                "image": {
+                                                    "src": "https://img1.hotstarext.com/image/upload/w_200,h_200,c_fill/feature/profile/22.png"
+                                                },
+                                                "id": "22"
+                                            },
+                                            {
+                                                "image": {
+                                                    "src": "https://img1.hotstarext.com/image/upload/w_200,h_200,c_fill/feature/profile/8.png"
+                                                },
+                                                "id": "8"
+                                            },
+                                            {
+                                                "image": {
+                                                    "src": "https://img1.hotstarext.com/image/upload/w_200,h_200,c_fill/feature/profile/15.png"
+                                                },
+                                                "id": "15"
+                                            },
+                                            {
+                                                "image": {
+                                                    "src": "https://img.hotstar.com/image/upload/v1693981923/feature/profile/Additional%20Profile%20Avatars/Shang_chi.png"
+                                                },
+                                                "id": "44"
+                                            },
+                                            {
+                                                "image": {
+                                                    "src": "https://img1.hotstarext.com/image/upload/w_200,h_200,c_fill/feature/profile/21.png"
+                                                },
+                                                "id": "21"
+                                            },
+                                            {
+                                                "image": {
+                                                    "src": "https://img1.hotstarext.com/image/upload/w_200,h_200,c_fill/feature/profile/7.png"
+                                                },
+                                                "id": "7"
+                                            },
+                                            {
+                                                "image": {
+                                                    "src": "https://img1.hotstarext.com/image/upload/w_200,h_200,c_fill/feature/profile/11.png"
+                                                },
+                                                "id": "11"
+                                            },
+                                            {
+                                                "image": {
+                                                    "src": "https://img1.hotstarext.com/image/upload/w_200,h_200,c_fill/v1/feature/profile/26.png"
+                                                },
+                                                "id": "26"
+                                            }
+                                        ],
+                                        "default_selected_avatar_id": "38"
+                                    }
+                                }
+                            },
+                            "id": "140",
+                            "defer_id": "140",
+                            "unique_identifier": "227"
+                        },
+                        {
+                            "template": "WatchlistWidget",
+                            "widget": {
+                                "@type": "type.googleapis.com/widget.WatchlistWidget",
+                                "template": {
+                                    "name": "WatchlistWidget",
+                                    "version": "1"
+                                },
+                                "widget_commons": {
+                                    "id": "WatchlistWidget",
+                                    "version": "1",
+                                    "instrumentation": {
+                                        "override_referrer": true,
+                                        "impression_events": [
+                                            {
+                                                "event_name": "Tray Viewed"
+                                            }
+                                        ],
+                                        "instrumentation_context_v2": {
+                                            "url": "type.googleapis.com/server.context.widget.TrayContext",
+                                            "value": "Ci8SD1dhdGNobGlzdFdpZGdldBoZV2F0Y2hsaXN0L1dhdGNobGlzdFdpZGdldCIBMRowCgdwMTNuLXdsEglXYXRjaGxpc3QaBFRyYXkgASoNZGV0ZXJtaW5pc3RpYzIDZW5n"
+                                        }
+                                    }
+                                },
+                                "data": {
+                                    "header": {
+                                        "title": "Watchlist",
+                                        "actions": {
+                                            "on_click": [
+                                                {
+                                                    "page_navigation": {
+                                                        "page_type": "TrayDetailsPage",
+                                                        "page_url": "/v2/pages/tray_details?tray_id=p13n-wl&tray_title=Watchlist&tray_type=watchlist",
+                                                        "page_slug": "/in/browse/watchlist/watchlist/p13n-wl"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        "cta": {
+                                            "label": "View All",
+                                            "actions": {
+                                                "on_click": [
+                                                    {
+                                                        "page_navigation": {
+                                                            "page_type": "TrayDetailsPage",
+                                                            "page_url": "/v2/pages/tray_details?tray_id=p13n-wl&tray_title=Watchlist&tray_type=watchlist",
+                                                            "page_slug": "/in/browse/watchlist/watchlist/p13n-wl"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    },
+                                    "refresh_info": {
+                                        "max_age_ms": "60000",
+                                        "refresh_url": "/v2/pages/104/spaces/64/widgets/226"
+                                    },
+                                    "tray_header": {
+                                        "data": {
+                                            "header": {
+                                                "regular_tray_header": {
+                                                    "title": "Watchlist",
+                                                    "actions": {
+                                                        "on_click": [
+                                                            {
+                                                                "page_navigation": {
+                                                                    "page_type": "TrayDetailsPage",
+                                                                    "page_url": "/v2/pages/tray_details?tray_id=p13n-wl&tray_title=Watchlist&tray_type=watchlist",
+                                                                    "page_slug": "/in/browse/watchlist/watchlist/p13n-wl"
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    "cta": {
+                                                        "data": {
+                                                            "text": "View All"
+                                                        },
+                                                        "actions": {
+                                                            "on_click": [
+                                                                {
+                                                                    "page_navigation": {
+                                                                        "page_type": "TrayDetailsPage",
+                                                                        "page_url": "/v2/pages/tray_details?tray_id=p13n-wl&tray_title=Watchlist&tray_type=watchlist",
+                                                                        "page_slug": "/in/browse/watchlist/watchlist/p13n-wl"
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "id": "226",
+                            "defer_id": "226",
+                            "unique_identifier": "23"
+                        },
+                        {
+                            "template": "CWTrayWidget",
+                            "widget": {
+                                "@type": "type.googleapis.com/widget.CWTrayWidget",
+                                "template": {
+                                    "name": "CWTrayWidget",
+                                    "version": "1"
+                                },
+                                "widget_commons": {
+                                    "id": "CWTrayWidget",
+                                    "version": "1",
+                                    "instrumentation": {
+                                        "override_referrer": true,
+                                        "impression_events": [
+                                            {
+                                                "event_name": "Tray Viewed"
+                                            }
+                                        ],
+                                        "instrumentation_context_v2": {
+                                            "url": "type.googleapis.com/server.context.widget.TrayContext",
+                                            "value": "CjQSDENXVHJheVdpZGdldBohQ29udGludWVXYXRjaGluZ1RyYXkvQ1dUcmF5V2lkZ2V0IgExGjgKB3AxM24tY3cSEUNvbnRpbnVlIFdhdGNoaW5nGgRUcmF5IAEqDWRldGVybWluaXN0aWMyA2VuZw=="
+                                        }
+                                    },
+                                    "name": "CWTrayWidget",
+                                    "cache_config": {},
+                                    "unique_identifier": "24"
+                                },
+                                "data": {
+                                    "header": {
+                                        "title": "Continue Watching for Ansh",
+                                        "actions": {
+                                            "on_click": [
+                                                {
+                                                    "hs_track": {
+                                                        "name": "Content Clicked"
+                                                    }
+                                                },
+                                                {
+                                                    "page_navigation": {
+                                                        "page_type": "TrayDetailsPage",
+                                                        "page_url": "/v2/pages/tray_details?tray_id=p13n-cw&tray_title=Continue+Watching&tray_type=continue-watching",
+                                                        "page_slug": "/in/browse/continue-watching/continue-watching/p13n-cw"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        "cta": {
+                                            "label": "View All",
+                                            "actions": {
+                                                "on_click": [
+                                                    {
+                                                        "page_navigation": {
+                                                            "page_type": "TrayDetailsPage",
+                                                            "page_url": "/v2/pages/tray_details?tray_id=p13n-cw&tray_title=Continue+Watching&tray_type=continue-watching",
+                                                            "page_slug": "/in/browse/continue-watching/continue-watching/p13n-cw"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    },
+                                    "items": [
+                                        {
+                                            "cw_card": {
+                                                "template": {
+                                                    "name": "CWCardWidget",
+                                                    "version": "1"
+                                                },
+                                                "widget_commons": {
+                                                    "version": "1",
+                                                    "instrumentation": {
+                                                        "override_referrer": true,
+                                                        "impression_events": [
+                                                            {
+                                                                "event_name": "Content Viewed"
+                                                            }
+                                                        ],
+                                                        "instrumentation_context_v2": {
+                                                            "url": "type.googleapis.com/server.context.widget.ContentTrayContext",
+                                                            "value": "CjQSDENXQ2FyZFdpZGdldBohQ29udGludWVXYXRjaGluZ1RyYXkvQ1dUcmF5V2lkZ2V0IgExGuECCgoxMjcxMzI5NDI5EgZIaXNhYWIaDFRhYXphIEtoYWJhciIHRVBJU09ERTCO/+/YBDoMTm92aSBEaWdpdGFsQhBIb3RzdGFyIFNwZWNpYWxzSAFqA2hpbmoDdGVsagN0YW1qA21hbGoDYmVuagNtYXJqA2thbnIDaGlukgK5AWltYWdlX3ZhcmlhbnQ9dWNiX01hbGVjYXN0XzQsYXJ0d29ya19sb2dpYz1FTkdfQVBQX0xQVl9TQ1JJUFRfTEFOR19ERUZBVUxUX0VOR19DQUxMT1VUX0xBTkdfTlVMTF9fdWNiX2VuZ18sdGhlbWU9REVGQVVMVCxzY3JpcHRfbGFuZ3VhZ2U9ZW5nLGNhbGxvdXRfbGFuZ3VhZ2VzPXVua25vd24sc2NyaXB0VHlwZT1hcnR3b3JrpQJGgcs+qgILTiBtaW5zIGxlZnRSEwgCEglDaGFwdGVyIDIaBBABGAEgASo4CgdwMTNuLWN3EhFDb250aW51ZSBXYXRjaGluZxoEVHJheSABKg1kZXRlcm1pbmlzdGljMgNlbmcyCgoGUmVzdW1lEAE="
+                                                        }
+                                                    },
+                                                    "name": "CWCardWidget"
+                                                },
+                                                "data": {
+                                                    "image": {
+                                                        "src": "sources/r1/cms/prod/1702/1729240671702-h",
+                                                        "alt": "Hisaab",
+                                                        "dimension": {
+                                                            "width": 1920,
+                                                            "height": 1080
+                                                        }
+                                                    },
+                                                    "actions": {
+                                                        "on_click": [
+                                                            {
+                                                                "hs_track": {
+                                                                    "name": "Content Clicked"
+                                                                }
+                                                            },
+                                                            {
+                                                                "page_navigation": {
+                                                                    "page_type": "WatchPage",
+                                                                    "page_url": "/v2/pages/watch?content_id=1271329429&filters=content_type%3Depisode",
+                                                                    "page_slug": "/in/shows/taaza-khabar/1260126094/hisaab/1271329429/watch",
+                                                                    "params": {
+                                                                        "watch_params": {
+                                                                            "loading_image": {
+                                                                                "src": "sources/r1/cms/prod/9171/1729241009171-t",
+                                                                                "alt": "Hisaab",
+                                                                                "dimension": {}
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    "cw_info": {
+                                                        "content_id": "1271329429",
+                                                        "resume_at": "813000",
+                                                        "duration": "2046000",
+                                                        "timestamp": "1729668221000",
+                                                        "watch_state": "WATCHING",
+                                                        "watch_ratio": 0.3974706530570984
+                                                    },
+                                                    "footer": {
+                                                        "title": "S2 E1",
+                                                        "kebab_menu": {
+                                                            "kebab_menu_title": "Taaza Khabar",
+                                                            "items": [
+                                                                {
+                                                                    "kebab_menu_option": {
+                                                                        "icon_name": "icon-info",
+                                                                        "label": "View More Details",
+                                                                        "actions": {
+                                                                            "on_click": [
+                                                                                {
+                                                                                    "hs_track": {
+                                                                                        "name": "Content Clicked",
+                                                                                        "override_context": {
+                                                                                            "url": "type.googleapis.com/server.context.widget.ContentTrayContext",
+                                                                                            "value": "CjQSDENXQ2FyZFdpZGdldBohQ29udGludWVXYXRjaGluZ1RyYXkvQ1dUcmF5V2lkZ2V0IgExGuECCgoxMjcxMzI5NDI5EgZIaXNhYWIaDFRhYXphIEtoYWJhciIHRVBJU09ERTCO/+/YBDoMTm92aSBEaWdpdGFsQhBIb3RzdGFyIFNwZWNpYWxzSAFqA2hpbmoDdGVsagN0YW1qA21hbGoDYmVuagNtYXJqA2thbnIDaGlukgK5AWltYWdlX3ZhcmlhbnQ9dWNiX01hbGVjYXN0XzQsYXJ0d29ya19sb2dpYz1FTkdfQVBQX0xQVl9TQ1JJUFRfTEFOR19ERUZBVUxUX0VOR19DQUxMT1VUX0xBTkdfTlVMTF9fdWNiX2VuZ18sdGhlbWU9REVGQVVMVCxzY3JpcHRfbGFuZ3VhZ2U9ZW5nLGNhbGxvdXRfbGFuZ3VhZ2VzPXVua25vd24sc2NyaXB0VHlwZT1hcnR3b3JrpQJGgcs+qgILTiBtaW5zIGxlZnRSEwgCEglDaGFwdGVyIDIaBBABGAEgASo4CgdwMTNuLWN3EhFDb250aW51ZSBXYXRjaGluZxoEVHJheSABKg1kZXRlcm1pbmlzdGljMgNlbmdCEwoRVmlldyBNb3JlIERldGFpbHM="
+                                                                                        }
+                                                                                    }
+                                                                                },
+                                                                                {
+                                                                                    "hs_track": {
+                                                                                        "name": "Clicked Content Item",
+                                                                                        "override_context": {
+                                                                                            "url": "type.googleapis.com/server.context.widget.ContentItemContext",
+                                                                                            "value": "CjkSEUJ1dHRvblN0YWNrV2lkZ2V0GiFDb250aW51ZVdhdGNoaW5nVHJheS9DV1RyYXlXaWRnZXQiATESEwoRdmlldyBtb3JlIGRldGFpbHMiOAoHcDEzbi1jdxIRQ29udGludWUgV2F0Y2hpbmcaBFRyYXkgASoNZGV0ZXJtaW5pc3RpYzIDZW5n"
+                                                                                        }
+                                                                                    }
+                                                                                },
+                                                                                {
+                                                                                    "open_page_overlay": {
+                                                                                        "page_type": "DesktopDetailsPage",
+                                                                                        "page_url": "/v2/pages/detail?content_id=1260126094&filters=content_type%3Depisode",
+                                                                                        "page_slug": "/in/shows/hisaab/1260126094"
+                                                                                    }
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "cw_remove_from_row_kebab_menu_option": {
+                                                                        "content_id": "1271329429"
+                                                                    }
+                                                                }
+                                                            ],
+                                                            "alt": {
+                                                                "label": "Show more options for Taaza Khabar"
+                                                            },
+                                                            "actions": {
+                                                                "on_click": [
+                                                                    {
+                                                                        "hs_track": {
+                                                                            "name": "Clicked Content Item",
+                                                                            "override_context": {
+                                                                                "url": "type.googleapis.com/server.context.widget.ContentItemContext",
+                                                                                "value": "CjQSDENXQ2FyZFdpZGdldBohQ29udGludWVXYXRjaGluZ1RyYXkvQ1dUcmF5V2lkZ2V0IgExEgwKCktlYmFiIE1lbnUiOAoHcDEzbi1jdxIRQ29udGludWUgV2F0Y2hpbmcaBFRyYXkgASoNZGV0ZXJtaW5pc3RpYzIDZW5n"
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        }
+                                                    },
+                                                    "expanded_content_poster": {
+                                                        "title": "S2 E1",
+                                                        "primary_cta": {
+                                                            "icon_name": "icon-play-fill",
+                                                            "label": "Resume",
+                                                            "actions": {
+                                                                "on_click": [
+                                                                    {
+                                                                        "hs_track": {
+                                                                            "name": "Content Clicked"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "hs_track": {
+                                                                            "name": "Clicked Watch CTA",
+                                                                            "override_context": {
+                                                                                "url": "type.googleapis.com/server.context.widget.ContentCTAContext",
+                                                                                "value": "CjQSDENXQ2FyZFdpZGdldBohQ29udGludWVXYXRjaGluZ1RyYXkvQ1dUcmF5V2lkZ2V0IgExEg0KCVdhdGNoIE5vdxABGuECCgoxMjcxMzI5NDI5EgZIaXNhYWIaDFRhYXphIEtoYWJhciIHRVBJU09ERTCO/+/YBDoMTm92aSBEaWdpdGFsQhBIb3RzdGFyIFNwZWNpYWxzSAFqA2hpbmoDdGVsagN0YW1qA21hbGoDYmVuagNtYXJqA2thbnIDaGlukgK5AWltYWdlX3ZhcmlhbnQ9dWNiX01hbGVjYXN0XzQsYXJ0d29ya19sb2dpYz1FTkdfQVBQX0xQVl9TQ1JJUFRfTEFOR19ERUZBVUxUX0VOR19DQUxMT1VUX0xBTkdfTlVMTF9fdWNiX2VuZ18sdGhlbWU9REVGQVVMVCxzY3JpcHRfbGFuZ3VhZ2U9ZW5nLGNhbGxvdXRfbGFuZ3VhZ2VzPXVua25vd24sc2NyaXB0VHlwZT1hcnR3b3JrpQJGgcs+qgILTiBtaW5zIGxlZnRSEwgCEglDaGFwdGVyIDIaBBABGAEiOAoHcDEzbi1jdxIRQ29udGludWUgV2F0Y2hpbmcaBFRyYXkgASoNZGV0ZXJtaW5pc3RpYzIDZW5nKAE="
+                                                                            }
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "page_navigation": {
+                                                                            "page_type": "WatchPage",
+                                                                            "page_url": "/v2/pages/watch?content_id=1271329429&filters=content_type%3Depisode",
+                                                                            "page_slug": "/in/shows/taaza-khabar/1260126094/hisaab/1271329429/watch",
+                                                                            "params": {
+                                                                                "watch_params": {
+                                                                                    "loading_image": {
+                                                                                        "src": "sources/r1/cms/prod/9171/1729241009171-t",
+                                                                                        "alt": "Hisaab",
+                                                                                        "dimension": {}
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        },
+                                                        "remove_cw_cta": {
+                                                            "icon_name": "icon-close",
+                                                            "label": "Remove from Continue Watching"
+                                                        },
+                                                        "see_more_cta": {
+                                                            "icon_name": "icon-caret-forward",
+                                                            "label": "View More Details",
+                                                            "actions": {
+                                                                "on_click": [
+                                                                    {
+                                                                        "hs_track": {
+                                                                            "name": "Content Clicked",
+                                                                            "override_context": {
+                                                                                "url": "type.googleapis.com/server.context.widget.ContentTrayContext",
+                                                                                "value": "CjQSDENXQ2FyZFdpZGdldBohQ29udGludWVXYXRjaGluZ1RyYXkvQ1dUcmF5V2lkZ2V0IgExGuECCgoxMjcxMzI5NDI5EgZIaXNhYWIaDFRhYXphIEtoYWJhciIHRVBJU09ERTCO/+/YBDoMTm92aSBEaWdpdGFsQhBIb3RzdGFyIFNwZWNpYWxzSAFqA2hpbmoDdGVsagN0YW1qA21hbGoDYmVuagNtYXJqA2thbnIDaGlukgK5AWltYWdlX3ZhcmlhbnQ9dWNiX01hbGVjYXN0XzQsYXJ0d29ya19sb2dpYz1FTkdfQVBQX0xQVl9TQ1JJUFRfTEFOR19ERUZBVUxUX0VOR19DQUxMT1VUX0xBTkdfTlVMTF9fdWNiX2VuZ18sdGhlbWU9REVGQVVMVCxzY3JpcHRfbGFuZ3VhZ2U9ZW5nLGNhbGxvdXRfbGFuZ3VhZ2VzPXVua25vd24sc2NyaXB0VHlwZT1hcnR3b3JrpQJGgcs+qgILTiBtaW5zIGxlZnRSEwgCEglDaGFwdGVyIDIaBBABGAEgASo4CgdwMTNuLWN3EhFDb250aW51ZSBXYXRjaGluZxoEVHJheSABKg1kZXRlcm1pbmlzdGljMgNlbmdCEwoRVmlldyBNb3JlIERldGFpbHM="
+                                                                            }
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "hs_track": {
+                                                                            "name": "Clicked Content Item",
+                                                                            "override_context": {
+                                                                                "url": "type.googleapis.com/server.context.widget.ContentItemContext",
+                                                                                "value": "CjQSDENXQ2FyZFdpZGdldBohQ29udGludWVXYXRjaGluZ1RyYXkvQ1dUcmF5V2lkZ2V0IgExEhMKEVZpZXcgTW9yZSBEZXRhaWxzIjgKB3AxM24tY3cSEUNvbnRpbnVlIFdhdGNoaW5nGgRUcmF5IAEqDWRldGVybWluaXN0aWMyA2VuZw=="
+                                                                            }
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "open_page_overlay": {
+                                                                            "page_type": "DesktopDetailsPage",
+                                                                            "page_url": "/v2/pages/detail?content_id=1260126094&filters=content_type%3Depisode",
+                                                                            "page_slug": "/in/shows/hisaab/1260126094"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        }
+                                                    },
+                                                    "meta_info": {
+                                                        "content_type": "EPISODE",
+                                                        "continue_watching_type": "CONTINUE",
+                                                        "episode_number": 1,
+                                                        "season_number": 2,
+                                                        "content_key": "1260126094",
+                                                        "age_rating": "U/A 16+"
+                                                    },
+                                                    "alt": {
+                                                        "label": "Taaza Khabar, Show, Season 2, Episode 1, 20 minutes left"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "refresh_info": {
+                                        "max_age_ms": "60000",
+                                        "refresh_url": "/v2/pages/104/spaces/64/widgets/227"
+                                    },
+                                    "tray_header": {
+                                        "data": {
+                                            "header": {
+                                                "regular_tray_header": {
+                                                    "title": "Continue Watching for Ansh",
+                                                    "actions": {
+                                                        "on_click": [
+                                                            {
+                                                                "hs_track": {
+                                                                    "name": "Content Clicked"
+                                                                }
+                                                            },
+                                                            {
+                                                                "page_navigation": {
+                                                                    "page_type": "TrayDetailsPage",
+                                                                    "page_url": "/v2/pages/tray_details?tray_id=p13n-cw&tray_title=Continue+Watching&tray_type=continue-watching",
+                                                                    "page_slug": "/in/browse/continue-watching/continue-watching/p13n-cw"
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    "cta": {
+                                                        "data": {
+                                                            "text": "View All"
+                                                        },
+                                                        "actions": {
+                                                            "on_click": [
+                                                                {
+                                                                    "hs_track": {
+                                                                        "name": "Content Clicked"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "page_navigation": {
+                                                                        "page_type": "TrayDetailsPage",
+                                                                        "page_url": "/v2/pages/tray_details?tray_id=p13n-cw&tray_title=Continue+Watching&tray_type=continue-watching",
+                                                                        "page_slug": "/in/browse/continue-watching/continue-watching/p13n-cw"
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "id": "227",
+                            "defer_id": "227",
+                            "unique_identifier": "24"
+                        }
+                    ],
+                    "data": {
+                        "@type": "type.googleapis.com/spacedata.TraySpaceData",
+                        "space_data_commons": {
+                            "instrumentation": {
+                                "instrumentation_context_v2": {
+                                    "url": "type.googleapis.com/server.context.space.TraySpace",
+                                    "value": "Eg0QBRoJCgdwMTNuLWN3Eg0QBBoJCgdwMTNuLXds"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "data": {
+                "@type": "type.googleapis.com/pagedata.MyPageData",
+                "page_data_commons": {
+                    "instrumentation": {
+                        "impression_events": [
+                            {
+                                "event_name": "Viewed Landing Page"
+                            }
+                        ],
+                        "instrumentation_context_v2": {
+                            "url": "type.googleapis.com/server.context.page.MySpacePage",
+                            "value": "CjsKB215c3BhY2USB215c3BhY2UaEC92Mi9wYWdlcy9teXBhZ2UgFioHTXlTcGFjZTIBMToHTXlTcGFjZQ=="
+                        }
+                    },
+                    "invalidate_on": [
+                        "TOKEN_CHANGED",
+                        "PROFILE_UPDATED"
+                    ]
+                }
+            }
+        }
+    }
+}
